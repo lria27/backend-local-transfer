@@ -1,0 +1,91 @@
+.header{
+  display: flex !important;
+  justify-content: space-between;
+  padding: 10px 5%;
+  align-items: center;
+  flex-direction: row !important;
+  @media (max-width: 440px) {
+    font-size: 14px;
+  }
+}
+.mainpage{
+  margin: 60px auto 30px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 1024px) {
+   flex-direction: column-reverse;
+    justify-content: center;
+  }
+  @media (max-width: 440px) {
+    font-size: 14px;
+  }
+  &__img{
+    width: 50%;
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+  &__block{
+    width: 40%;
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+  &__title{
+    color: #2b34d7;
+    font-weight: 700;
+  }
+  &__text{
+    margin: 15px 0;
+    line-height: 25px;
+  }
+}
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+  margin-right: 10px;
+  color: blueviolet;
+  &:hover{
+    color: #aff500
+  }
+}
+
+.page404{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.text404{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: #131313;
+  letter-spacing: .10em;
+ }
+.gif404{
+  width: 100px;
+}
+.container404{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title404{
+  margin: 20px 0;
+  color: #2b34d7;
+  font-size: 18px;
+  font-weight: 700;
+}
